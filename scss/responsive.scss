@@ -290,6 +290,11 @@
             display: inherit;
         }
     }
+    .contact__part{
+        p{
+            text-align: justify;
+        }
+    }
     .footer__social {
         padding: 10px 0;
     }
@@ -314,6 +319,10 @@
 
     .end__content p {
         text-align: justify;
+    }
+    .contact__info h4 {
+        font-size: 16px;
+        line-height: 22px;
     }
 }
 
