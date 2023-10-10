@@ -552,6 +552,24 @@ section.privacybanner::after {
 }
 
 /*privacy-css-end*/
+/*terms-css-start*/
+section.termsbannerbanner {
+  position: relative;
+  padding: 200px 0 150px 0;
+  background-image: url(../images/termsbanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: inherit;
+  object-fit: cover;
+}
+section.termsbannerbanner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*terms-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */

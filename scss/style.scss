@@ -539,7 +539,26 @@ section.privacybanner {
         background-color: rgba(0, 0, 0, 0.40);
     }
 }
-
 /*privacy-css-end*/
+
+/*terms-css-start*/
+
+section.termsbannerbanner {
+    position: relative;
+    padding: 200px 0 150px 0;
+    background-image: url(../images/termsbanner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    object-fit: cover;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.40);
+    }
+}
+/*terms-css-end*/
 
 /*# sourceMappingURL=style.css.map */
