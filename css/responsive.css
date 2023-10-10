@@ -109,6 +109,9 @@ h3 {
   .homemain__picture img {
     max-width: 445px;
   }
+  .Slovenia__content h3 {
+    line-height: 21px;
+  }
 }
 @media screen and (max-width: 991px) {
   /*header start*/
