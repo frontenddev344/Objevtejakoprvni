@@ -290,6 +290,9 @@
             display: inherit;
         }
     }
+    .footer__social {
+        padding: 10px 0;
+    }
 }
 
 @include mq(sm) {

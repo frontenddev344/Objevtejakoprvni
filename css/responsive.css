@@ -297,6 +297,9 @@ h3 {
   .hotelcard__main {
     display: inherit;
   }
+  .footer__social {
+    padding: 10px 0;
+  }
 }
 @media screen and (max-width: 575px) {
   .site-nav {
