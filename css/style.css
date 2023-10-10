@@ -559,7 +559,7 @@ section.termsbanner {
   background-image: url(../images/termsbanner.png);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: inherit;
+  background-position: center;
   object-fit: cover;
 }
 section.termsbanner::after {
