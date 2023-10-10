@@ -553,7 +553,7 @@ section.privacybanner::after {
 
 /*privacy-css-end*/
 /*terms-css-start*/
-section.termsbannerbanner {
+section.termsbanner {
   position: relative;
   padding: 200px 0 150px 0;
   background-image: url(../images/termsbanner.png);
@@ -562,7 +562,7 @@ section.termsbannerbanner {
   background-position: inherit;
   object-fit: cover;
 }
-section.termsbannerbanner::after {
+section.termsbanner::after {
   content: "";
   position: absolute;
   inset: 0;
