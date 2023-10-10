@@ -303,6 +303,10 @@ section.homecard {
   text-align: center;
 }
 
+.footer__social {
+  padding: 30px 0;
+}
+
 .Useful_link {
   color: #fff;
 }
