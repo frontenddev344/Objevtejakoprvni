@@ -484,6 +484,32 @@ section.attractionbanner::after {
 }
 
 /*attraction-css-end*/
+/*entertainment-css-start*/
+section.entertainmentbanner {
+  position: relative;
+  padding: 200px 0 150px 0;
+  background-image: url(../images/entertainmentbanner.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+section.entertainmentbanner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.homemain__part.entertainment p::before {
+  content: none;
+}
+
+.homemain__part.entertainment {
+  margin: 30px 0 0 0;
+}
+
+/*entertainment-css-end*/
 
 
 /*# sourceMappingURL=style.css.map */
