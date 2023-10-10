@@ -272,7 +272,7 @@ section.homecard {
   height: 500px;
   object-fit: cover;
   max-width: 560px;
-  border-radius: 25px;
+  border-radius: 8px;
   width: 100%;
 }
 .homemain__part {

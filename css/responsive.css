@@ -112,6 +112,9 @@ h3 {
   .Slovenia__content h3 {
     line-height: 21px;
   }
+  .homemain__part h3 {
+    font-size: 24px;
+  }
 }
 @media screen and (max-width: 991px) {
   /*header start*/
@@ -239,7 +242,7 @@ h3 {
     max-width: 100%;
   }
   .homemain__part {
-    padding: 30px 0 0 0;
+    padding: 30px 0;
   }
 }
 @media screen and (max-width: 768px) {
@@ -303,6 +306,15 @@ h3 {
   }
   .end__content p {
     text-align: justify;
+  }
+}
+@media screen and (max-width: 425px) {
+  .homemain__part h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .end__content.attraction {
+    padding: 0 0 20px 0;
   }
 }
 
