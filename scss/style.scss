@@ -257,9 +257,11 @@ section.homecard {
         }
     }
 }
+
 .footer__social {
     padding: 30px 0;
 }
+
 .Useful_link {
     color: $clr-white;
 
@@ -474,7 +476,8 @@ section.entertainmentbanner {
 }
 
 /*entertainment-css-end*/
-/*entertainment-css-start*/
+
+/*contactbanner-css-start*/
 
 section.contactbanner {
     position: relative;
@@ -486,10 +489,32 @@ section.contactbanner {
     object-fit: cover;
 }
 
-.homemain__part.entertainment {
-    margin: 30px 0 0 0;
+.contactpart {
+    padding: 50px 0;
+
+    p {
+        font-size: 16px;
+        line-height: 24px;
+        color: $clr-black;
+
+    }
+
+    li {
+        font-size: 15px;
+        font-family: 'Montserrat';
+    }
 }
 
-/*entertainment-css-end*/
+span {
+    font-family: 'Prata';
+    font-size: 17px;
+    font-weight: 700;
+}
+
+.contact__info {
+    padding: 30px 0 0 0;
+}
+
+/*contactbanner-css-end*/
 
 /*# sourceMappingURL=style.css.map */
