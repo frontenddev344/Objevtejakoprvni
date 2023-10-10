@@ -115,6 +115,10 @@ h3 {
   .homemain__part h3 {
     font-size: 24px;
   }
+  header.site-header.sticky .site-nav a {
+    padding: 8px 4px !important;
+    font-size: 15px;
+  }
 }
 @media screen and (max-width: 991px) {
   /*header start*/
