@@ -116,18 +116,6 @@ html {
   display: -webkit-flex;
 }
 
-img.logoblue {
-  display: none;
-}
-
-header.site-header.sticky img.logowhite {
-  display: none;
-}
-
-header.site-header.sticky img.logoblue {
-  display: block;
-}
-
 .container {
   max-width: 1280px;
   margin: 0 auto;
@@ -153,24 +141,11 @@ header.site-header {
 }
 
 header.site-header.sticky {
-  background: #fff;
+  background: rgba(0, 25, 52, 0.8117647059);
   box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.3);
   animation: 500ms ease-in-out 0s normal none 1 running fadeInDown;
   padding: 14px 0;
   position: fixed;
-}
-
-header.site-header.sticky .site-nav a {
-  padding: 8px 8px !important;
-  display: inline-block;
-  font-size: 17px;
-  color: #001934;
-  font-weight: 500;
-}
-
-header.site-header.sticky a.menu.active {
-  color: #001934 !important;
-  border-bottom: 1px solid #001934;
 }
 
 .site-logo img {

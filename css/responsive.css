@@ -282,9 +282,6 @@ h3 {
   .hotel__numeric {
     display: none;
   }
-  header.site-header.sticky .menu-toggle .bar-1, .bar-2, .bar-3 {
-    background-color: #001934;
-  }
 }
 @media screen and (max-width: 767px) {
   .hotelcard__picture img {
