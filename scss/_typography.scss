@@ -1,0 +1,73 @@
+@import './variables';
+@import './mixins';
+
+li {
+    list-style: none;
+}
+
+body {
+    font-family: 'Prata', serif;
+}
+
+a,
+button {
+    font-family: 'Montserrat', sans-serif;
+}
+
+p {
+    font-size: 20px;
+    font-weight: 400;
+    color: $clr-white;
+    font-family: 'Montserrat', sans-serif;
+
+
+    @include mq(xxxl) {
+        font-size: 16px;
+        line-height: 50px;
+    }
+
+    @include mq(sm) {
+        line-height: 25px;
+    }
+}
+
+
+h1 {
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 75px;
+    color: $clr-white;
+
+    @include mq(xxxl) {
+        font-size: 45px;
+        line-height: 50px;
+    }
+
+    @include mq(xl) {
+        font-size: 35px;
+        line-height: 45px;
+    }
+
+
+}
+
+h2 {
+    font-size: 40px;
+    color: $clr-darkblue;
+    line-height: 30px;
+    @include mq(md) {
+        font-size: 28px;
+    }
+    @include mq(sm) {
+        font-size: 21px;
+    }
+}
+
+h3 {
+    font-size: 30px;
+    line-height: 40px;
+    @include mq(md) {
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
