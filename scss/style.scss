@@ -446,6 +446,25 @@ section.localbanner {
 
 /*local-cuisine-css-end*/
 
+/*attraction-css-start*/
 
+section.attractionbanner {
+    position: relative;
+    padding: 200px 0 150px 0;
+    background-image: url(../images/budgetbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
+
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.40);
+    }
+}
+
+/*attraction-css-end*/
 
 /*# sourceMappingURL=style.css.map */
