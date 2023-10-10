@@ -159,6 +159,10 @@ header.site-header.sticky {
   font-size: 17px;
   color: #fff;
   font-weight: 500;
+  transition: all 0.2s linear;
+}
+.site-nav a:hover {
+  transform: translateY(5px);
 }
 
 .site-header {

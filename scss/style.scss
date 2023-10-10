@@ -88,6 +88,11 @@ header.site-header.sticky {
     font-size: 17px;
     color: $clr-white;
     font-weight: 500;
+    transition: all 0.2s linear;
+
+    &:hover {
+        transform: translateY(5px);
+    }
 }
 
 
@@ -539,11 +544,12 @@ section.privacybanner {
         background-color: rgba(0, 0, 0, 0.40);
     }
 }
+
 /*privacy-css-end*/
 
 /*terms-css-start*/
 
-section.termsbanner{
+section.termsbanner {
     position: relative;
     padding: 200px 0 150px 0;
     background-image: url(../images/termsbanner.png);
@@ -559,6 +565,7 @@ section.termsbanner{
         background-color: rgba(0, 0, 0, 0.40);
     }
 }
+
 /*terms-css-end*/
 
 /*# sourceMappingURL=style.css.map */
