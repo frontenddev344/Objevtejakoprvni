@@ -480,7 +480,6 @@ section.entertainmentbanner {
 /*contactbanner-css-start*/
 
 section.contactbanner {
-    position: relative;
     padding: 200px 0 150px 0;
     background-image: url(../images/contactbanner.jpg);
     background-repeat: no-repeat;
@@ -513,8 +512,32 @@ span {
 
 .contact__info {
     padding: 30px 0 0 0;
+    h4{
+        font-size: 20px;
+        line-height: 35px; 
+     }
 }
 
 /*contactbanner-css-end*/
+
+/*privacy-css-start*/
+
+section.privacybanner {
+    position: relative;
+    padding: 200px 0 150px 0;
+    background-image: url(../images/privacybanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+    object-fit: cover;
+    &::after {
+        content: '';
+        position: absolute;
+        inset: 0;
+        background-color: rgba(0, 0, 0, 0.40);
+    }
+}
+
+/*privacy-css-end*/
 
 /*# sourceMappingURL=style.css.map */
