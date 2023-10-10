@@ -447,29 +447,7 @@ section.localbanner {
 
 /*local-cuisine-css-end*/
 
-/*attraction-css-start*/
-
-section.attractionbanner {
-    position: relative;
-    padding: 200px 0 150px 0;
-    background-image: url(../images/attractionbanner.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    object-fit: cover;
-
-    &::after {
-        content: '';
-        position: absolute;
-        inset: 0;
-        background-color: rgba(0, 0, 0, 0.40);
-    }
-}
-
-/*attraction-css-end*/
-
 /*entertainment-css-start*/
-
 section.entertainmentbanner {
     position: relative;
     padding: 200px 0 150px 0;
@@ -489,6 +467,23 @@ section.entertainmentbanner {
 
 .homemain__part.entertainment p::before {
     content: none;
+}
+
+.homemain__part.entertainment {
+    margin: 30px 0 0 0;
+}
+
+/*entertainment-css-end*/
+/*entertainment-css-start*/
+
+section.contactbanner {
+    position: relative;
+    padding: 200px 0 150px 0;
+    background-image: url(../images/contactbanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    object-fit: cover;
 }
 
 .homemain__part.entertainment {
