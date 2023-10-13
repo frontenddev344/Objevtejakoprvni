@@ -291,6 +291,10 @@ section.homecard.cuisine {
   max-width: 560px;
   border-radius: 8px;
   width: 100%;
+  transition: all 0.3s linear;
+}
+.homemain__picture img:hover {
+  filter: grayscale(1);
 }
 .homemain__part {
   display: flex;
