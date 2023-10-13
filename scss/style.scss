@@ -463,6 +463,12 @@ section.localbanner {
         border: 1px solid;
         padding: 10px 20px;
         border-radius: 5px;
+        &:hover{
+            background: $clr-darkblue;
+            font-size: 17px;
+            color: $clr-white;
+
+        }
     }
 }
 
