@@ -112,6 +112,11 @@ html {
   font-size: 62.5%;
 }
 
+@media (prefers-color-scheme: dark) {
+  #lightheme {
+    filter: invert(1);
+  }
+}
 .equal {
   display: -webkit-flex;
 }
@@ -500,7 +505,7 @@ section.localbanner::after {
 section.entertainmentbanner {
   position: relative;
   padding: 200px 0 150px 0;
-  background-image: url(../images/entertainmentbanner.png);
+  background-image: url(../images/entertainmentbanner1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
