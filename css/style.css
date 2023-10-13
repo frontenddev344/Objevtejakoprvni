@@ -478,6 +478,24 @@ section.localbanner::after {
 }
 
 /*local-cuisine-css-end*/
+/*attraction-css-start*/
+.attractionbanner {
+  position: relative;
+  padding: 200px 0 150px 0;
+  background-image: url(../images/attractionbanner.jpeg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  object-fit: cover;
+}
+.attractionbanner::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+/*attraction-css-start*/
 /*entertainment-css-start*/
 section.entertainmentbanner {
   position: relative;
