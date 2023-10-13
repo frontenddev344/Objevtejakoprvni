@@ -391,6 +391,7 @@ section.hotelbanner::after {
   font-size: 18px;
   text-align: center;
   padding: 13px 30px;
+  border: 1px solid #001934;
 }
 .hotel-btn a:hover {
   border: 1px solid #001934;
