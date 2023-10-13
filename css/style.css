@@ -234,11 +234,15 @@ section.homecard {
   padding: 50px 0;
 }
 
+section.homecard.cuisine {
+  padding: 20px 0 0 0;
+}
+
 .homecard__text p {
   font-size: 16px;
   line-height: 25px;
   color: #323232;
-  margin-top: 30px;
+  margin: 8px 0;
 }
 
 .end__content {

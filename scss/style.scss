@@ -169,18 +169,19 @@ section.homebanner {
 section.homecard {
     padding: 50px 0;
 }
-
+section.homecard.cuisine {
+    padding: 20px 0 0 0;
+}
 .homecard {
     &__text {
         p {
             font-size: 16px;
             line-height: 25px;
             color: $clr-black;
-            margin-top: 30px;
+                margin: 8px 0;
         }
     }
 }
-
 .end__content {
     padding: 50px 0;
 
