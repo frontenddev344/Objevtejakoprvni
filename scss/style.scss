@@ -39,11 +39,13 @@ a:focus {
 html {
     font-size: 62.5%;
 }
+
 @media (prefers-color-scheme: dark) {
-    #lightheme{
-    filter:invert(1);
+    #lightheme {
+        filter: invert(1);
     }
 }
+
 .equal {
     display: -webkit-flex;
 }
@@ -173,19 +175,22 @@ section.homebanner {
 section.homecard {
     padding: 50px 0;
 }
+
 section.homecard.cuisine {
     padding: 20px 0 0 0;
 }
+
 .homecard {
     &__text {
         p {
             font-size: 16px;
             line-height: 25px;
             color: $clr-black;
-                margin: 8px 0;
+            margin: 8px 0;
         }
     }
 }
+
 .end__content {
     padding: 50px 0;
 
@@ -476,6 +481,7 @@ section.localbanner {
         background-color: rgba(0, 0, 0, 0.40);
     }
 }
+
 /*attraction-css-start*/
 
 /*entertainment-css-start*/
