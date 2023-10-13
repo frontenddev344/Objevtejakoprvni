@@ -530,7 +530,6 @@ section.contactbanner {
         font-size: 16px;
         line-height: 24px;
         color: $clr-black;
-
     }
 
     li {
@@ -566,7 +565,6 @@ section.privacybanner {
     background-size: cover;
     background-position: inherit;
     object-fit: cover;
-
     &::after {
         content: '';
         position: absolute;
@@ -578,7 +576,6 @@ section.privacybanner {
 /*privacy-css-end*/
 
 /*terms-css-start*/
-
 section.termsbanner {
     position: relative;
     padding: 200px 0 150px 0;
