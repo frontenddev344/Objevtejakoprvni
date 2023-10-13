@@ -128,7 +128,9 @@ a.menu.active {
     border-bottom: 1px solid #fff;
     color: $clr-white !important;
 }
-
+.closed-menu a {
+    font-size: 50px !important;
+}
 /*header end*/
 
 /*banner-css-start*/

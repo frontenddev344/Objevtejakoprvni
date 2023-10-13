@@ -198,6 +198,10 @@ a.menu.active {
   color: #fff !important;
 }
 
+.closed-menu a {
+  font-size: 50px !important;
+}
+
 /*header end*/
 /*banner-css-start*/
 section.homebanner {
