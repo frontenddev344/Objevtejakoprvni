@@ -248,6 +248,9 @@ h3 {
   .homemain__part {
     padding: 30px 0;
   }
+  .Useful_link a {
+    font-size: 13px;
+  }
 }
 @media screen and (max-width: 768px) {
   .home__title p {
