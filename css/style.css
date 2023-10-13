@@ -582,7 +582,7 @@ section.privacybanner::after {
 section.termsbanner {
   position: relative;
   padding: 200px 0 150px 0;
-  background-image: url(../images/termsbanner.png);
+  background-image: url(../images/termsbanner.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
