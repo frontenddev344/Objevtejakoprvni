@@ -218,10 +218,21 @@
             padding: 30px 0;
         }
     }
-    .Useful_link{
-        a{
+
+    .Useful_link {
+        a {
             font-size: 13px;
         }
+    }
+
+    .homemain__picture.casino img {
+        height: 250px;
+        max-width: 100%;
+        object-fit: cover;
+    }
+
+    .hotel-btn.casino {
+        align-items: start;
     }
 }
 
@@ -278,6 +289,10 @@
         display: none;
     }
 
+    .homemain__part.casino h3 {
+        font-size: 16px;
+        line-height: 26px;
+    }
 }
 
 @media screen and (max-width:767px) {
