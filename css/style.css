@@ -486,6 +486,11 @@ section.localbanner::after {
   padding: 10px 20px;
   border-radius: 5px;
 }
+.Slovenia__content a:hover {
+  background: #001934;
+  font-size: 17px;
+  color: #fff;
+}
 
 .col-lg-4.col-md-6.col-sm-12.space {
   margin-top: 30px;
