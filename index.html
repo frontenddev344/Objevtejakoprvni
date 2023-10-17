@@ -186,6 +186,23 @@
   </div>
   <!-- site footer end -->
 
+   <!--cookies start -->
+   <div class="card cookie-alert">
+    <div class="card-body p-5">
+      <h3>Cookies*** </h3>
+      <p>Tento web používá soubory cookie</p>
+      <p>Soubory cookies can be personalized and advertised, providing social media and analytical
+          information. Informace or vašem používání našich stránek také sdílíme s našimi partnery
+          v oblasti sociálních médií, advertising in analýzy, kteří je mohou kombinovat s dalšími
+          informacemi, které jste jim poskytli nebo které shromáždili při va šem používání jejich
+          služeb.</p>
+        <div class="btn-toolbar justify-content-end">
+
+            <a href="#" class="btn btn-primary accept-cookies">Accept</a>
+        </div>
+    </div>
+</div>
+<!--cookies end -->
 
   <script src="js/bootstrap.js"></script>
   <script src="js/jquery.js"></script>
@@ -230,6 +247,49 @@ lightSchemeIcon = document.querySelector('link#light-scheme-icon');
 darkSchemeIcon = document.querySelector('link#dark-scheme-icon');
 </script>
 
+<script>
+  (function () {
+    "use strict";
+ 
+    var cookieAlert = document.querySelector(".cookie-alert");
+    var acceptCookies = document.querySelector(".accept-cookies");
+ 
+    cookieAlert.offsetHeight; // Force browser to trigger reflow (https://stackoverflow.com/a/39451131)
+ 
+    if (!getCookie("acceptCookies")) {
+        cookieAlert.classList.add("show");
+    }
+ 
+    acceptCookies.addEventListener("click", function () {
+        setCookie("acceptCookies", true, 60);
+        cookieAlert.classList.remove("show");
+    });
+ })();
+ 
+ // Cookie functions stolen from w3schools
+ function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    var expires = "expires=" + d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+ }
+ 
+ function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) === ' ') {
+            c = c.substring(1);
+        }
+        if (c.indexOf(name) === 0) {
+            return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+ }
+      </script>
 
 </body>
 
