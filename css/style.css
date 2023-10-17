@@ -668,14 +668,21 @@ section.termsbanner::after {
 
 .cookie-alert .btn {
   color: #fff;
-  background-color: #900a2d;
+  background-color: #001934;
   border-color: #ffffff;
+  font-size: 18px;
+  padding: 9px 30px;
 }
 
 .cookie-alert.show {
   opacity: 1;
   transform: translateY(0%);
   transition-delay: 1000ms;
+}
+
+.card-body.p-5 p {
+  font-size: 16px;
+  color: #001934;
 }
 
 /*cookie end*/
