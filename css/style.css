@@ -532,6 +532,10 @@ section.localbanner::after {
 
 /*attraction-css-start*/
 /*entertainment-css-start*/
+section.homecard.entertainment {
+  padding: 50px 0 0 0;
+}
+
 section.entertainmentbanner {
   position: relative;
   padding: 200px 0 150px 0;

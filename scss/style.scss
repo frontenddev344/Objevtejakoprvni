@@ -203,7 +203,8 @@ section.homecard.cuisine {
         color: $clr-black;
         margin-top: 10px;
     }
- h3 {
+
+    h3 {
         font-size: 20px;
         line-height: 32px;
     }
@@ -324,9 +325,11 @@ section.hotelbanner {
         background-color: rgba(0, 0, 0, 0.40);
     }
 }
+
 .homemain__part.casino p {
     margin: 0;
 }
+
 .hotelcard {
     padding: 50px 0 0 0;
 
@@ -353,6 +356,7 @@ section.hotelbanner {
         h3 {
             border-bottom: 1px solid $clr-darkblue;
         }
+
         h4 {
             font-size: 20px;
             margin-top: 10px;
@@ -384,9 +388,11 @@ section.hotelbanner {
 .hotel__numeric {
     font-size: 30px;
 }
+
 .homecard__text.hotel {
     padding-bottom: 30px;
 }
+
 /*hotels-css-end*/
 
 /*budget-css-start*/
@@ -513,6 +519,10 @@ section.localbanner {
 /*attraction-css-start*/
 
 /*entertainment-css-start*/
+section.homecard.entertainment {
+    padding: 50px 0 0 0;
+}
+
 section.entertainmentbanner {
     position: relative;
     padding: 200px 0 150px 0;
@@ -665,37 +675,40 @@ section.termsbanner {
 
 /*zabava-css-bet-end*/
 
-	/*cookie start*/
-    .cookie-alert {
-        position: fixed;
-        bottom: 0;
-        right: 0;
-        width: 100%;
-        margin: 0 !important;
-        z-index: 999;
-        opacity: 0;
-        transform: translateY(100%);
-        transition: all 500ms ease-out;
-        left: 0;
-    }
-    .cookie-alert .btn {
-        color: #fff;
-        background-color: #001934;
-        border-color: #ffffff;
-        font-size: 18px;
-        padding: 9px 30px;
-    }
-    .cookie-alert.show {
-        opacity: 1;
-        transform: translateY(0%);
-        transition-delay: 1000ms;
-    }
-    .card-body.p-5 p {
-        font-size: 16px;
-        color: #001934;
-    }
-    
-    /*cookie end*/
+/*cookie start*/
+.cookie-alert {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    margin: 0 !important;
+    z-index: 999;
+    opacity: 0;
+    transform: translateY(100%);
+    transition: all 500ms ease-out;
+    left: 0;
+}
+
+.cookie-alert .btn {
+    color: #fff;
+    background-color: #001934;
+    border-color: #ffffff;
+    font-size: 18px;
+    padding: 9px 30px;
+}
+
+.cookie-alert.show {
+    opacity: 1;
+    transform: translateY(0%);
+    transition-delay: 1000ms;
+}
+
+.card-body.p-5 p {
+    font-size: 16px;
+    color: #001934;
+}
+
+/*cookie end*/
 
 
 
