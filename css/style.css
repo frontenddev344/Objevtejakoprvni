@@ -379,6 +379,10 @@ section.hotelbanner::after {
 .hotelcard__part h3 {
   border-bottom: 1px solid #001934;
 }
+.hotelcard__part h4 {
+  font-size: 20px;
+  margin-top: 10px;
+}
 .hotelcard__main {
   display: flex;
   gap: 20px;
@@ -401,6 +405,10 @@ section.hotelbanner::after {
 
 .hotel__numeric {
   font-size: 30px;
+}
+
+.homecard__text.hotel {
+  padding-bottom: 30px;
 }
 
 /*hotels-css-end*/

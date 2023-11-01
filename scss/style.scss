@@ -347,6 +347,10 @@ section.hotelbanner {
         h3 {
             border-bottom: 1px solid $clr-darkblue;
         }
+        h4 {
+            font-size: 20px;
+            margin-top: 10px;
+        }
     }
 
     &__main {
@@ -374,7 +378,9 @@ section.hotelbanner {
 .hotel__numeric {
     font-size: 30px;
 }
-
+.homecard__text.hotel {
+    padding-bottom: 30px;
+}
 /*hotels-css-end*/
 
 /*budget-css-start*/
