@@ -203,6 +203,10 @@ section.homecard.cuisine {
         color: $clr-black;
         margin-top: 10px;
     }
+ h3 {
+        font-size: 20px;
+        line-height: 32px;
+    }
 }
 
 .homemain__part {
@@ -320,7 +324,9 @@ section.hotelbanner {
         background-color: rgba(0, 0, 0, 0.40);
     }
 }
-
+.homemain__part.casino p {
+    margin: 0;
+}
 .hotelcard {
     padding: 50px 0 0 0;
 

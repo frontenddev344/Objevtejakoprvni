@@ -263,6 +263,10 @@ section.homecard.cuisine {
   color: #323232;
   margin-top: 10px;
 }
+.end__content h3 {
+  font-size: 20px;
+  line-height: 32px;
+}
 
 .homemain__part h3 {
   margin-bottom: 10px;
@@ -355,6 +359,10 @@ section.hotelbanner::after {
   position: absolute;
   inset: 0;
   background-color: rgba(0, 0, 0, 0.4);
+}
+
+.homemain__part.casino p {
+  margin: 0;
 }
 
 .hotelcard {
