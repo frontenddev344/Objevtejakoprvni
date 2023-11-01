@@ -234,6 +234,11 @@
     .hotel-btn.casino {
         align-items: start;
     }
+
+    .end__content h3 {
+        font-size: 20px;
+        line-height: 30px;
+    }
 }
 
 @include mq(md) {
@@ -359,6 +364,11 @@
 
     .end__content.attraction {
         padding: 0 0 20px 0;
+    }
+
+    .end__content h3 {
+        font-size: 14px;
+        line-height: 24px;
     }
 }
 

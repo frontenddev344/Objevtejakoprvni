@@ -259,6 +259,10 @@ h3 {
   .hotel-btn.casino {
     align-items: start;
   }
+  .end__content h3 {
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 @media screen and (max-width: 768px) {
   .home__title p {
@@ -344,6 +348,10 @@ h3 {
   }
   .end__content.attraction {
     padding: 0 0 20px 0;
+  }
+  .end__content h3 {
+    font-size: 14px;
+    line-height: 24px;
   }
 }
 
